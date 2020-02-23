@@ -1,0 +1,10 @@
+INSERT INTO customer (first_name, last_name, email) VALUES ('Nealy', 'Deble', 'ndeble0@altervista.org');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Midge', 'Corcut', 'mcorcut0@trellian.com');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Jaye', 'Tassel', 'jtassel1@narod.ru');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Sibbie', 'Fibbens', 'sfibbens2@google.com.au');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Marshall', 'Wensley', 'mwensley4@walmart.com');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Yvonne', 'Sainte Paul', 'ysaintepaul7@webnode.com');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Renata', 'Fairhead', 'rfairhead9@liveinternet.ru');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Alasdair', 'Padillo', 'apadillob@apple.com');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Evelyn', 'Alesin', 'ealesinf@ehow.com');
+INSERT INTO customer (first_name, last_name, email) VALUES ('Jedd', 'Blaby', 'jblabyg@ovh.net');
