@@ -13,6 +13,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import pl.agawesolowska.webcustomertracker.entity.Customer;
 import pl.agawesolowska.webcustomertracker.service.CustomerService;
 
+/**
+ * The heart of the web customer tracker app responding to HTTP queries.
+ * 
+ * @author Aga
+ *
+ */
 @Controller
 @RequestMapping("/web-customer-tracker")
 public class CustomerController {

@@ -11,6 +11,12 @@ import org.springframework.stereotype.Repository;
 
 import pl.agawesolowska.webcustomertracker.entity.Customer;
 
+/**
+ * Implementation of Data Access Object interface to communicate between an app and the PostgreSQL database.
+ * 
+ * @author Aga
+ *
+ */
 @Repository
 public class CustomerDaoImpl implements CustomerDao {
 
@@ -50,8 +56,7 @@ public class CustomerDaoImpl implements CustomerDao {
 	public void deleteCustomer(long customerId) {
 		Session currentSession = entityManager.unwrap(Session.class);
 		Query<Customer> query = currentSession.createQuery("delete from Customer where id=:customerId");
-		query.setParameter("customerId", customerId);
-		query.executeUpdate();
+		query.setParameter("customerId", customerId).executeUpdate();
 	}
 
 }

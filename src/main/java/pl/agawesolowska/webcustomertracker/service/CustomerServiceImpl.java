@@ -10,6 +10,12 @@ import org.springframework.stereotype.Service;
 import pl.agawesolowska.webcustomertracker.dao.CustomerDao;
 import pl.agawesolowska.webcustomertracker.entity.Customer;
 
+/**
+ * Service layer that simply delegates calls to the Customer Data Access Object.
+ * 
+ * @author Aga
+ *
+ */
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
