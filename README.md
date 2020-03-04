@@ -1,5 +1,5 @@
 # Web Customer Tracker
-> Customer Relationship Manager - Spring and Hibernate project.
+> Customer Relationship Management - Spring and Hibernate project.
 
 ## Table of contents
 * [General info](#general-info)
